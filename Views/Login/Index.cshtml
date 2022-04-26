@@ -1,0 +1,42 @@
+﻿
+@model Entidades.Negocio.Estilos.OEstilos
+@{
+    ViewBag.Title = "Iniciar sesión";
+    //Layout = "~/Views/Shared/_LayoutLogin.cshtml";  Model.button
+    Layout = Model.master;
+}
+
+<script>
+    var urlValidar = "@Url.Action("lsValidar", "Login")"
+</script>
+<script src="~/Scripts/Views/jsLogin.js" type="text/javascript"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6">
+            <div class="login-panel panel panel-default">
+                <div class="panel-heading">
+                    <h2 align="center">Iniciar sesión</h2>
+                </div>
+                <div class="panel-body">
+                    <fieldset>
+
+
+                        <label for="uname"><b>Nombre de usuario</b></label>
+                        <input type="text" placeholder="Usuario" name="usuario" autofocus id="txtUsuario">
+
+                        <label for="psw"><b>Contraseña</b></label>
+                        <input type="password" placeholder="Contraseña" name="password" id="txtPassword">
+
+                        <button class="@Model.button" id="btnIngresar">Login</button>
+                        
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+        </div>
+    </div>
+</div>

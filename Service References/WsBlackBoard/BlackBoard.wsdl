@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="BlackBoard" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:54665/BlackBoard.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:54665/BlackBoard.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:54665/BlackBoard.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.IO" />
+      <xsd:import schemaLocation="http://localhost:54665/BlackBoard.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System" />
+      <xsd:import schemaLocation="http://localhost:54665/BlackBoard.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:54665/BlackBoard.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/System.Text" />
+      <xsd:import schemaLocation="http://localhost:54665/BlackBoard.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/System.Globalization" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISwnBlackBoard_GenerarArchivoCsv_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarArchivoCsv" />
+  </wsdl:message>
+  <wsdl:message name="ISwnBlackBoard_GenerarArchivoCsv_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarArchivoCsvResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISwnBlackBoard_GenerarArchivo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarArchivo" />
+  </wsdl:message>
+  <wsdl:message name="ISwnBlackBoard_GenerarArchivo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarArchivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISwnBlackBoard_ObtenerRutaDirectorio_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerRutaDirectorio" />
+  </wsdl:message>
+  <wsdl:message name="ISwnBlackBoard_ObtenerRutaDirectorio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerRutaDirectorioResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISwnBlackBoard_ConectarClienteSftp_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConectarClienteSftp" />
+  </wsdl:message>
+  <wsdl:message name="ISwnBlackBoard_ConectarClienteSftp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConectarClienteSftpResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISwnBlackBoard_ObtenerDocumentos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDocumentos" />
+  </wsdl:message>
+  <wsdl:message name="ISwnBlackBoard_ObtenerDocumentos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDocumentosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISwnBlackBoard">
+    <wsdl:operation name="GenerarArchivoCsv">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISwnBlackBoard/GenerarArchivoCsv" message="tns:ISwnBlackBoard_GenerarArchivoCsv_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISwnBlackBoard/GenerarArchivoCsvResponse" message="tns:ISwnBlackBoard_GenerarArchivoCsv_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarArchivo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISwnBlackBoard/GenerarArchivo" message="tns:ISwnBlackBoard_GenerarArchivo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISwnBlackBoard/GenerarArchivoResponse" message="tns:ISwnBlackBoard_GenerarArchivo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerRutaDirectorio">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISwnBlackBoard/ObtenerRutaDirectorio" message="tns:ISwnBlackBoard_ObtenerRutaDirectorio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISwnBlackBoard/ObtenerRutaDirectorioResponse" message="tns:ISwnBlackBoard_ObtenerRutaDirectorio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConectarClienteSftp">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISwnBlackBoard/ConectarClienteSftp" message="tns:ISwnBlackBoard_ConectarClienteSftp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISwnBlackBoard/ConectarClienteSftpResponse" message="tns:ISwnBlackBoard_ConectarClienteSftp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDocumentos">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISwnBlackBoard/ObtenerDocumentos" message="tns:ISwnBlackBoard_ObtenerDocumentos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISwnBlackBoard/ObtenerDocumentosResponse" message="tns:ISwnBlackBoard_ObtenerDocumentos_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISwnBlackBoard" type="tns:ISwnBlackBoard">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GenerarArchivoCsv">
+      <soap:operation soapAction="http://tempuri.org/ISwnBlackBoard/GenerarArchivoCsv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarArchivo">
+      <soap:operation soapAction="http://tempuri.org/ISwnBlackBoard/GenerarArchivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerRutaDirectorio">
+      <soap:operation soapAction="http://tempuri.org/ISwnBlackBoard/ObtenerRutaDirectorio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConectarClienteSftp">
+      <soap:operation soapAction="http://tempuri.org/ISwnBlackBoard/ConectarClienteSftp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDocumentos">
+      <soap:operation soapAction="http://tempuri.org/ISwnBlackBoard/ObtenerDocumentos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BlackBoard">
+    <wsdl:port name="BasicHttpBinding_ISwnBlackBoard" binding="tns:BasicHttpBinding_ISwnBlackBoard">
+      <soap:address location="http://localhost:54665/BlackBoard.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

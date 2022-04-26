@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bbf3a349-3791-46b6-8c5d-447d4b23cfd6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:54665/BlackBoard.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BlackBoard.wsdl" MetadataType="Wsdl" ID="b13ff2b0-6a44-47b3-a810-879ca58a66e3" SourceId="1" SourceUrl="http://localhost:54665/BlackBoard.svc?wsdl" />
+    <MetadataFile FileName="BlackBoard2.xsd" MetadataType="Schema" ID="7f8b157d-01ca-4e3f-9d39-13c329f6d4d9" SourceId="1" SourceUrl="http://localhost:54665/BlackBoard.svc?xsd=xsd2" />
+    <MetadataFile FileName="BlackBoard3.xsd" MetadataType="Schema" ID="7ead6724-1aca-45a5-92a7-56231fba93f1" SourceId="1" SourceUrl="http://localhost:54665/BlackBoard.svc?xsd=xsd3" />
+    <MetadataFile FileName="BlackBoard31.xsd" MetadataType="Schema" ID="a6784ccc-f1a3-4a7a-b480-eb7254e72e69" SourceId="1" SourceUrl="http://localhost:54665/BlackBoard.svc?xsd=xsd4" />
+    <MetadataFile FileName="BlackBoard32.xsd" MetadataType="Schema" ID="29aebd9f-519d-4016-8a27-53b3679005bb" SourceId="1" SourceUrl="http://localhost:54665/BlackBoard.svc?xsd=xsd5" />
+    <MetadataFile FileName="BlackBoard33.xsd" MetadataType="Schema" ID="da3f79aa-af87-4449-b595-1dc0cb42b77c" SourceId="1" SourceUrl="http://localhost:54665/BlackBoard.svc?xsd=xsd6" />
+    <MetadataFile FileName="BlackBoard1.xsd" MetadataType="Schema" ID="778b1920-8e81-401e-b32a-eb8ac0e468d4" SourceId="1" SourceUrl="http://localhost:54665/BlackBoard.svc?xsd=xsd1" />
+    <MetadataFile FileName="BlackBoard.xsd" MetadataType="Schema" ID="b1a6d7fa-f663-42f4-b610-a49eb56172da" SourceId="1" SourceUrl="http://localhost:54665/BlackBoard.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

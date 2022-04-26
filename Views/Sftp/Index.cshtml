@@ -1,0 +1,95 @@
+﻿@model List<Consumir_Aplicacion.Models.SftpModels>
+@{
+    ViewBag.Title = "Subir Archivos por FTP para Conduit";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<h2 align="center">Subir Archivos por FTP para Conduit</h2>
+<h2>
+    @{
+
+
+    }
+</h2>
+
+
+
+
+
+@*@using (Html.BeginForm("Action", "Controller", FormMethod.Post,
+    new { enctype = "multipart/form-data" }))*@
+<form id="form" method="post" enctype="multipart/form-data">
+    @*@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {*@
+    <div class="row">
+        
+        <div class="col-sm-4">
+            <div align="center" class="container">
+                <div class="row">
+                    <div class="col">
+                        @if (!string.IsNullOrEmpty(ViewBag.ArchivosCargados))
+                        {    <span class="badge badge-primary">Archivos</span>
+                            <span align="center" style="color:blue"> @Html.Raw(ViewBag.ArchivosCargados + "<br/>" + " Se han Cargado los siguientes archivos ")</span>
+                        }
+                        @if (!string.IsNullOrEmpty(ViewBag.Mensaje))
+                        {
+                            <span align="center" style="color:red"> @Html.Raw(ViewBag.Mensaje)</span>
+                        }
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <div class="container">
+                <p>Seleccione los  Archivos </p>
+                <input type="file" class="form-control-file" id="txtFile" name="inputFile" multiple />
+                <br />
+                <input type="submit" class="btn btn-primary btn-sm" style="padding:2px 2px" id="Upload" name="btnResult" value="Subir" onclick="prueba()" />
+
+            </div>
+        </div>
+        
+        <div id="dialogo" class="row" title="Mensaje:" style="display:none" align="center">
+            <p>Favor de Subir archivos con extension .csv</p>
+
+        </div>
+
+        <div id="dialogo2" title="Mensaje:" style="display:none" align="center">
+            <p>Favor de Subir archivos con extension .csv</p>
+
+        </div>
+    </div>
+</form>
+
+<script src="~/Scripts/jquery-1.7.1.js"></script>
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.8.20.js"></script>
+<script src="~/Scripts/jquery-ui-1.8.20.min.js"></script>
+<link rel="stylesheet" type="text/css" href="~/Scripts/jquery-ui.css" />
+<script type="text/javascript">
+
+    function prueba() {
+
+        var extensionArchivo = $("#txtFile").val();
+        var valorStr = extensionArchivo.substring(12);
+        var dataString = $("#form").serialize();
+        var nuevoValor = extensionArchivo.substring(extensionArchivo.lastIndexOf("."));
+        console.log("@@@@  prueba   " + dataString);
+        console.log("@@@@  extensionArchivo   " + valorStr);
+
+        console.log("@@@@  extensionArchivo   " + extensionArchivo);
+        if (nuevoValor != ".csv") {
+            console.log("@@@@  extensionArchivo   " + extensionArchivo);
+
+
+        }
+        if (extensionArchivo == "") {
+            console.log("@@@@  extensionArchivo   " + extensionArchivo);
+
+        }
+
+
+    }
+
+</script>

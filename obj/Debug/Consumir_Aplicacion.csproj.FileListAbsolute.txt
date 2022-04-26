@@ -1,0 +1,110 @@
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\Consumir_Aplicacion.dll.config
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\Consumir_Aplicacion.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\Consumir_Aplicacion.pdb
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\Newtonsoft.Json.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Net.Http.Formatting.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Helpers.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Http.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Http.WebHost.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Mvc.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Razor.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\Newtonsoft.Json.xml
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Net.Http.Formatting.xml
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Helpers.xml
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Http.xml
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Http.WebHost.xml
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Mvc.xml
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Razor.xml
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.xml
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.Http.resources.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\obj\Debug\Consumir_Aplicacion.dll
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\obj\Debug\Consumir_Aplicacion.pdb
+C:\Users\user\documents\visual studio 2013\Projects\Consumir Aplicacion\Consumir Aplicacion\obj\Debug\Consumir_Aplicacion.csprojResolveAssemblyReference.cache
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\Consumir_Aplicacion.dll.config
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\Consumir_Aplicacion.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\Consumir_Aplicacion.pdb
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\Newtonsoft.Json.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Helpers.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Mvc.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Razor.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\Newtonsoft.Json.xml
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Helpers.xml
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Mvc.xml
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.Razor.xml
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.xml
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\obj\Debug\Consumir_Aplicacion.csprojResolveAssemblyReference.cache
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\obj\Debug\Consumir_Aplicacion.dll
+C:\Users\Vincent Law\Downloads\Interfaz lms y power campus\Consumir Aplicacion\Consumir Aplicacion\obj\Debug\Consumir_Aplicacion.pdb
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Consumir_Aplicacion.dll.config
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Consumir_Aplicacion.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Consumir_Aplicacion.pdb
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Newtonsoft.Json.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Net.Http.Formatting.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.Helpers.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.Http.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.Http.WebHost.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.Mvc.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.Razor.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Deployment.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.WebPages.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Razor.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Newtonsoft.Json.xml
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Net.Http.Formatting.xml
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.Helpers.xml
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.Http.xml
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.Http.WebHost.xml
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.Mvc.xml
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.Razor.xml
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.WebPages.xml
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Deployment.xml
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\System.Web.WebPages.Razor.xml
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\es\System.Web.Helpers.resources.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\es\System.Web.Http.resources.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\es\System.Web.Mvc.resources.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\es\System.Web.Razor.resources.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\es\System.Web.WebPages.resources.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\obj\Debug\Consumir_Aplicacion.csprojAssemblyReference.cache
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\obj\Debug\Consumir_Aplicacion.csproj.CoreCompileInputs.cache
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\obj\Debug\Consumir_Aplicacion.csproj.CopyComplete
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\obj\Debug\Consumir_Aplicacion.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\obj\Debug\Consumir_Aplicacion.pdb
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Entidades.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Entidades.pdb
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Negocio.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Negocio.pdb
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Datos.dll
+C:\Calidata\ConsumirAplicacion\Consumir Aplicacion\bin\Datos.pdb

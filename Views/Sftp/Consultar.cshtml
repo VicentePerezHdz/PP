@@ -1,0 +1,208 @@
+﻿@model Consumir_Aplicacion.Models.SftpModels
+
+@{
+    ViewBag.Title = "Consulta de Resultados Conduit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 align="center">Consulta de Resultados Conduit</h2>
+<form id="FrmBuscar" action="@Url.Action("Consultar", "Sftp")" method="post">
+    <div class="row">
+        <div class="col-sm-4" id="txta" style="display:none">
+
+
+
+        </div>
+
+
+        <div class="col-sm-4">
+            <div class="row">
+                <div class="col">
+
+
+                </div>
+                <div class="col">
+                    @if (!string.IsNullOrEmpty(ViewBag.Nombre))
+                    {
+                        <span align="center" style="color:blue"> @Html.Raw("Tu nombre es    " + ViewBag.Nombre)</span>
+                    }
+                </div>
+
+            </div>
+        </div>
+        <div class="col-sm-4" align="center">
+            <div>
+                @Html.DropDownList("Selected", new List<SelectListItem>
+                    {
+                    new SelectListItem{ Text="USUARIO", Value = "1" },
+                    new SelectListItem{ Text="CURSOS", Value = "2" },
+                    new SelectListItem{ Text="GRUPOS", Value = "3" },
+                 }, new { @class = "btn btn-primary" })
+            </div>
+            <div class="col-sm-4" id="BuscarUsuario" style="display:none">
+
+                <p class="text-right">Obtener los datos del usuario</p>
+                @Html.DropDownList("SelectedBuscarUsuario", new List<SelectListItem>
+                    {
+                    new SelectListItem{ Text="Obtener los datos de perfil de un usuario", Value = "1" },
+                    new SelectListItem{ Text="Información acerca de todas las actividades", Value = "2" },
+                    new SelectListItem{ Text="Actividades que  debe entregar en un curso", Value = "3" },
+                    new SelectListItem{ Text="Eventos del Usuario dentro de un curso", Value = "4" },
+                    new SelectListItem{ Text="Calificaciones del Usuario ", Value = "5" },
+
+                 }, new { @class = "btn btn-primary" })
+
+                <section>
+
+                    <p class="text-right">Ingrese el Nombre de usuario </p>
+                    <input type="text" id="txtFiltro" name="txtFiltro" value="" />
+                    <br />
+                    <br />
+                    <input type="submit" class="btn btn-primary btn-sm" style="padding:2px 2px" id="Consultar" name="btnResult" value="Consultar" />
+                </section>
+            </div>
+            <div class="col-sm-4" id="BuscarCurso" style="display:none">
+                <p class="text-right">Obtener los datos del Curso</p>
+                @Html.DropDownList("SelectedBuscarCurso", new List<SelectListItem>
+                    {
+                    new SelectListItem{ Text="Obtener los detalles del curso", Value = "1" },
+                    new SelectListItem{ Text="Obtener todas las calificaciones del curso", Value = "2" },
+
+                 }, new { @class = "btn btn-primary" })
+                <section>
+
+                    <p class="text-right">Ingrese el Nombre de usuario </p>
+                    <input type="text" id="txtFiltro" name="txtFiltro" value="" />
+                    <br />
+                    <br />
+                    <input type="submit" class="btn btn-primary btn-sm" style="padding:2px 2px" id="Consultar" name="btnResult" value="Consultar" />
+                </section>
+            </div>
+
+
+        </div>
+    </div>
+</form>
+
+<script src="~/Scripts/jquery-1.7.1.js"></script>
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.8.20.js"></script>
+<script src="~/Scripts/jquery-ui-1.8.20.min.js"></script>
+<link rel="stylesheet" type="text/css" href="~/Scripts/jquery-ui.css" />
+<script>
+
+    $("#Selected").change(function () {
+        var Select = $("#Selected").val();
+        var pobjIN = parseInt(Select);
+        switch (pobjIN) {
+            case 1:
+                n = "Buscar  Usuario";
+
+                console.log("Opcion elegida     " + pobjIN);
+                $("#BuscarUsuario").show();
+                $("#BuscarCurso").hide();
+                $("#BuscarGrupo").hide();
+
+                break;
+            case 2:
+                n = "Buscar Cursos";
+
+                console.log("Opcion elegida     " + pobjIN);
+                $("#BuscarCurso").show();
+                $("#BuscarUsuario").hide();
+                $("#BuscarGrupo").hide();
+                break;
+
+            case 3:
+                n = "Buscar Grupos";
+
+                console.log("Opcion elegida     " + pobjIN);
+                $("#BuscarGrupo").show();
+                $("#BuscarUsuario").hide();
+                $("#BuscarCurso").hide();
+                break;
+
+            default: n = "Nohay";
+                break;
+        }
+
+    });
+
+
+
+    $("#SelectedBuscarUsuario").change(function () {
+        var Select = $("#SelectedBuscarUsuario").val();
+        var pobjIN = parseInt(Select);
+       
+        switch (pobjIN) {
+            case 1:
+                n = "Buscar  Usuario";
+                console.log("Opcion elegida     " + n);
+                console.log("Obtener los datos de perfil de un usuario    " + pobjIN);
+
+
+                break;
+            case 2:
+                n = "Información acerca de todas las actividades";
+                console.log("Opcion elegida     " + n);
+                console.log("Opcion elegida    " + pobjIN);
+
+                break;
+
+            case 3:
+                n = "Actividades que  debe entregar en un curso";
+                console.log("Opcion elegida     " + n);
+                console.log("Opcion elegida     " + pobjIN);
+                break;
+            case 4:
+                n = "Eventos del Usuario dentro de un curso";
+                console.log("Opcion elegida     " + n);
+                console.log("Opcion elegida    " + pobjIN);
+                $("#txtFiltro").hide();
+                $("#Consultar").hide();
+
+                break;
+            case 5:
+                n = "Calificaciones del Usuario";
+                console.log("Opcion elegida     " + n);
+                console.log("Opcion elegida     " + pobjIN);
+                $("#txtFiltro").hide();
+                $("#Consultar").hide();
+
+                break;
+
+            default: n = "Nohay";
+                break;
+        }
+        
+    });
+
+
+    $("#SelectedBuscarCurso").change(function () {
+        var Select = $("#SelectedBuscarCurso").val();
+        var pobjIN = parseInt(Select);
+        
+
+        switch (pobjIN) {
+            case 1:
+                n = "Obtener los detalles del curso";
+                console.log("Opcion elegida     " + n);
+                console.log("Obtener los datos de perfil de un usuario    " + pobjIN);
+
+
+                break;
+            case 2:
+                n = "Obtener todas las calificaciones del curso";
+                console.log("Opcion elegida     " + n);
+                console.log("Opcion elegida    " + pobjIN);
+
+                break;
+
+
+
+            default: n = "Nohay";
+                break;
+        }
+        
+    });
+</script>

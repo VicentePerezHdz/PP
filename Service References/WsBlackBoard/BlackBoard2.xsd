@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/System.IO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/System.IO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:54665/BlackBoard.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost:54665/BlackBoard.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/System.Text" />
+  <xs:import schemaLocation="http://localhost:54665/BlackBoard.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System" />
+  <xs:complexType name="StreamReader">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:TextReader">
+        <xs:sequence>
+          <xs:element name="_checkPreamble" type="xs:boolean" />
+          <xs:element name="_closable" type="xs:boolean" />
+          <xs:element name="_detectEncoding" type="xs:boolean" />
+          <xs:element name="_isBlocked" type="xs:boolean" />
+          <xs:element name="_maxCharsPerBuffer" type="xs:int" />
+          <xs:element name="_preamble" nillable="true" type="xs:base64Binary" />
+          <xs:element name="byteBuffer" nillable="true" type="xs:base64Binary" />
+          <xs:element name="byteLen" type="xs:int" />
+          <xs:element name="bytePos" type="xs:int" />
+          <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="charBuffer" nillable="true" type="q1:ArrayOfchar" />
+          <xs:element name="charLen" type="xs:int" />
+          <xs:element name="charPos" type="xs:int" />
+          <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/System.Text" name="decoder" nillable="true" type="q2:Decoder" />
+          <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/System.Text" name="encoding" nillable="true" type="q3:Encoding" />
+          <xs:element name="stream" nillable="true" type="tns:Stream" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="StreamReader" nillable="true" type="tns:StreamReader" />
+  <xs:complexType name="TextReader">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/System" base="q4:MarshalByRefObject">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TextReader" nillable="true" type="tns:TextReader" />
+  <xs:complexType name="Stream">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="http://schemas.datacontract.org/2004/07/System" base="q5:MarshalByRefObject">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Stream" nillable="true" type="tns:Stream" />
+</xs:schema>

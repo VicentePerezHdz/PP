@@ -1,0 +1,81 @@
+﻿@model List<Consumir_Aplicacion.Models.SftpModels>
+@{
+    ViewBag.Title = "Subir Archivos por FTP para Conduit";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+
+<div class="row pt-5 pl-1 mr-0 ml-0">
+    <div class="col-12">
+        <div class="panel  panel-success w-100">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="form-inline">
+                        <div class="col-12" id="Titulos">
+                            Cierre de mes
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <br />
+                <div class="row">
+                    <div class="col-6 col-sm-4 col-md-3 text-center pb-2">
+                        <div class="text-left">
+                            <label for="lsAnio">Año: </label>
+                            <select name="Proceso" class=" form-control" id="lsAnio"></select>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 text-center pb-2">
+                        <div class="text-left">
+                            <label for="lsMes">Mes de cierre: </label>
+                            <select name="Proceso" class=" form-control" id="lsMes">
+                                <option id="1">Enero</option>
+                                <option id="2">Febrero</option>
+                                <option id="3">Marzo</option>
+                                <option id="4">Abril</option>
+                                <option id="5">Mayo</option>
+                                <option id="6">Junio</option>
+                                <option id="7">Julio</option>
+                                <option id="8">Agosto</option>
+                                <option id="9">Septimbre</option>
+                                <option id="10">Octubre</option>
+                                <option id="11">Noviembre</option>
+                                <option id="12">Diciembre</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-6 text-center pb-2">
+                        <div class="text-left">
+                            <label for="lsOperadora">Operadora: </label>
+                            <select name="Proceso" class=" form-control" id="lsOperadora"></select>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-4" id="divRadios">
+                        <label>Tipo Producto:</label>
+                        <br />
+                        <label class="labl">
+                            <input type="radio" name="producto" value="Facturacion" id="radioFacturacion" checked="checked" />
+                            <label for="radioFacturacion" style="color:dimgray">Facturación</label>
+                        </label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <label class="labl">
+                            <input type="radio" name="producto" value="Pago" id="radioPrepado" />
+                            <label for="radioPrepado" style="color:dimgray">Pagos</label>
+                        </label>
+                    </div>
+                    <div class=" col-md-2">
+                        <div class="row" style="padding-top: 1.5rem !important" ;>
+                            <div class="col-6 col-sm-4 col-md-3 text-center">
+                                <button type="button" id="btnGuardar" class="btn btn-success"><span>Guardar</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

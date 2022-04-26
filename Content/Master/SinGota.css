@@ -1,0 +1,100 @@
+﻿html {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    position:fixed;
+    z-index:1;
+    /*-webkit-box-shadow: 10px 8px 53px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 8px 53px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 8px 53px 0px rgba(0,0,0,0.75);*/
+}
+
+    header .barraVerde {
+        background-color: rgb(12,78,39);
+        height: 0px;
+    }
+
+    header .barraBlanca {
+        background-color: rgb(255,255,255);
+        height: 0px;
+        text-align: center;
+    }
+
+        header .barraBlanca img {
+            top: -18px;
+            position: relative;
+            width: 120px;
+        }
+
+    header .barraVerde2 {
+        background-color: rgb(20,159,69);
+        height: 3px;
+    }
+
+body {
+    min-height: calc(100% - 73px);
+}
+
+section {
+    min-height: calc(100% - 60px);
+    width: 100%;
+    position: relative;
+    top:60px;
+}
+
+footer {
+    bottom: -20px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+    footer .footer {
+        width: 100%;
+        position: absolute;
+        font-size: smaller;
+        color: #C3C3C3;
+        height: 50px;
+    }
+
+#ipI {
+    color: white;
+    bottom: 0;
+    position: absolute;
+}
+
+@media only screen and (min-width: 992px) {
+    header .barraVerde {
+        height: 40px;
+    }
+
+    header .barraBlanca {
+        height: 40px;
+    }
+
+        header .barraBlanca img {
+            top: -94px;
+            width: 210px;
+            z-index: 0;
+            display: inline-block;
+        }
+
+    header .barraVerde2 {
+        height: 3px;
+    }
+
+    section {
+        top:125px;
+        min-height: calc(100% - 100px);
+    }
+}
